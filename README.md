@@ -101,3 +101,8 @@ Contributions are welcome! Here’s how you can help:
 ## **Acknowledgements**
 
 Special thanks to the open-source community for libraries like `hashlib` and `logging` that make projects like this possible.
+<<<<<<< HEAD:README.md
+=======
+
+
+>>>>>>> f27b64cbe84084e32c2d043310877311f50a8c7e:Readme.txt
