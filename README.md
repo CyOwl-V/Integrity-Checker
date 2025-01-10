@@ -1,4 +1,3 @@
-
 # File watch
 A lightweight tool to ensure the integrity of files and directories by monitoring and detecting unauthorized modifications. This project uses cryptographic hashing to verify that files remain unchanged, providing a reliable way to safeguard against tampering
 
@@ -98,12 +97,7 @@ Contributions are welcome! Here’s how you can help:
 - Add Fail-Safe Measures "Backup"
 - Database for Integrity Data
 - Testing and Validation " checking if it work or not"
+
 ## **Acknowledgements**
 
 Special thanks to the open-source community for libraries like `hashlib` and `logging` that make projects like this possible.
-## Related Resources
-
-```dataview
-list
-from [[]] and #Resource
-```
