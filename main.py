@@ -12,9 +12,9 @@ def calculate_hash(file_path):
     sha256 = hashlib.sha256()
     try:
         with open(file_path, 'rb') as f:
-            while chunk := f.read(8192):
+            while chunk := f.read(8192): # Read the file in chunks of 8 KB
                 sha256.update(chunk)
-        return sha256.hexdigest()
+        return sha256.hexdigest()  # Return the hash as a hexadecimal string
     except FileNotFoundError:
         logging.error(f"File not found: {file_path}")
         return None
@@ -43,7 +43,7 @@ def check_integrity(hash_file):
         logging.error(f"Hash file not found: {hash_file}")
 
 # Example usage
-directory_to_monitor = 'path_to_directory'
+directory_to_monitor = r'C:\Users\work\Desktop\Integrity-Checker\Test_dir'
 hash_file = 'file_hashes.json'
 
 # Step 1: Generate and store hashes
